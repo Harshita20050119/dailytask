@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Day1 task semantic elements</title>
+    <style>
+        li{
+            display: inline;
+            /* border: 2px solid black; */
+            margin-left: 15px;
+        }
+        header{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        nav{
+             display: inline;
+             border: 2px solid black;
+             padding-right: 10px;
+        }
+        aside{
+            border: 2px solid black; 
+            width: 200px;
+            height: 50px;
+            margin-left: 400px;
+            background-color: rgb(255, 0, 0);
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <header> The <span style="color: orangered">Taj</span> Hotel</header>
+            <nav>
+                <li>Home</li>
+                 <li>contact us</li>
+                 <li>Dinings</li>
+                 <li>order now</li>
+                 <li>wellness</li>
+            </nav>
+
+        <section>
+            <h1>Welcome to hotel Taj</h1>
+            <main>As the leading harbour icon in India, The Taj Mahal Palace, Mumbai commands a regal view of the Gateway of India and the Arabian Sea. </main>
+
+          <figure>
+            <img src="https://st3.depositphotos.com/1723045/18597/i/450/depositphotos_185978472-stock-photo-taj-mahal-palace-a-historic.jpg" alt="Hotel image">
+            <figcaption>This is a caption Dated:23-july-2024</figcaption>
+          </figure>
+
+          <article>
+            <h3>Hotel information</h3>
+            <p>Check-in from <b>2:00 pm</b> Check-out until noon</p>
+            <p><b>285</b> rooms and suites</p>
+          </article>
+        </section>
+
+        <aside> Visit our other brands-Taj jewels,Vivanta,Gateway</aside>
+
+        <footer>
+            <h6>Footer element starts</h6>
+            <p>Author:John Doe</p>
+            <p>copyright &copy; information. All right reserved!!</p>
+        </footer>
+    </div>
 </body>
 </html>
