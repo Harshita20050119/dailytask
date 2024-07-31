@@ -6,13 +6,15 @@
     <title>Document</title>
     <style>
         body{
-            background-color: pink;
+            background-color: palegoldenrod;
         }
-        /* #home{
+        #home{
          display: flex;
+         justify-content: space-evenly;
             border: 2px solid black;
-            float: left;
-        } */
+            /* float: left; */
+            list-style-type: none;
+        }
         .display{
             float: left;
             /* border:2px solid black ; */
@@ -25,7 +27,7 @@
 </head>
 <body>
     <h1>list element</h1>
-    <ol type="1" style="border: 2px solid black;">
+    <ol type="1" style="border: 2px solid black; background-color: blueviolet;">
         <li>Morning</li>
         <ol type="A">
             <li>Breakfast includes</li>
@@ -47,7 +49,7 @@
         <ol type="A">
             <li> Places to be visited</li>
             <ol type="i">
-                <li>India gate</li>
+                <li style="list-style-image: url(Images/email_logo.jpg);">India gate</li>
                 <li>Red fort</li>
                 <li>Jantar Mantar</li>
             </ol>
@@ -57,7 +59,7 @@
                 <li>Sadar bazar</li>
                 <li>chandni chowk</li>
                 <ul type="disc">
-                    <li>clothes</li>
+                    <li   style="list-style-image: url(Images/phone_logo.jpg);">clothes</li>
                     <li>Best food</li>
                     <ul type="circle" >
                         <li>Gyani di hatti</li>
@@ -81,13 +83,13 @@
     <div class="display">
         <li>Facilities</li>
     </div>
+  <br><br>
 
-
-   <!-- <ol id="home">
+   <Ul id="home" style="background-color: red;">
     <li>Home</li>
     <li>About us</li>
     <li>Contact us</li>
     <li>Facilities</li>
-  </ol>  -->
+  </Ul> 
 </body>
 </html>
