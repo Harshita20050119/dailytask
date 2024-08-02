@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #container{
+        display: flex;
+        background-color: #7fffd4;
+        height: 300px;
+        justify-content: center;
+      }
+      .box{
+        border: 2px solid black;
+        display: flex;
+        width: 500px;
+        margin: 50px;
+        background-color: blueviolet;
+        justify-content: left;
+     }
+     #container2{
+        background-color: aqua;
+        height: 300px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .box2{
+        background-color: rgb(247, 255, 20);
+        height: 200px;
+        display: flex;
+        margin: 50px;
+        width: 150px;
+        border: 2px solid black;
+     }
+    .box2 p{
+        border: 2px solid black;
+     }
+     .image{
+          /* display: flex; */
+          justify-content: center;
+          align-items: center;
+     }
+     #container3{
+          text-align: center;
+       
+     }
+     #sup{
+        background-color: rgb(0, 255, 110); 
+        text-align: center;
+        width: 100px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+     }
+     #sub{
+        background-color: rgb(0, 221, 255); 
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+        padding-top: 50px;
+        margin: auto;
+        margin-top: 20px;
+     }
+     #image2 img{
+        margin: auto;
+        display: block;
+        margin-top: 30px;
+     }
+     #image3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+     }
+    </style>
+</head>
+<body>
+    <div  id="container">
+        <div class="box">
+           <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+           </ul>
+           <ul>
+            <li>JS</li>
+            <li>javascript</li>
+           </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li>c</li>
+                <li>c++</li>
+            </ul>
+            <ul>
+                <li>python</li>
+                <li>java</li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+            <ul>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+    </div>
+    <div id="container2">
+        <div class="box2">
+            <p>The color of <b>Banana</b> is <del style="color: red;">red</del> <u>yellow.</u></p>
+        </div>
+        <div class="box2">
+            <p>em is used for <em>italic</em> content</p><br>
+            <p>strong is used to <strong> bold</strong> the content</p><br>
+            <p>strike is used to <strike> give line over </strike> the content</p>
+        </div>
+        <div class="box2">
+            <p>em is used for <em>italic</em> content</p><br>
+            <p>strong is used to <strong> bold</strong> the content</p><br>
+            <p>strike is used to <strike> give line over </strike> the content</p>
+        </div>
+    </div>
+   
+   <section>
+    <div id="container3">
+        <h1>Image tag</h1>
+    </div>
+    <figure>
+        <div class="image">
+       <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/magical-spring-forest-scenery-during-morning-breeze-free-photo.jpg?w=600&quality=80" alt="Nature image" height="200px" width="400px" title="Sunlight">
+       <figcaption>Figcaption: Nature image</figcaption>
+      </div>
+    </figure>
+
+      <div id="sup">
+        3<sup>2</sup>=9 <br>
+        4<sup>2</sup>=16 <br>
+        5<sup>2</sup>=25<br>
+        6<sup>2</sup>=36 <br>
+        1<sup>2</sup>=1 <br>
+        7<sup>2</sup>=49 <br>
+      </div>
+
+       <div id="sub">
+        formulae of water = H<sub>2</sub>O <br>
+        formulae of methane = CH<sub>4</sub>
+       </div>
+       
+        <div id="image2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYx3XPtRB1TFtpdL5in3M3PEszrcPrLWd9w&s" alt="Mountain image">
+       </div>
+     
+       <div id="image3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYx3XPtRB1TFtpdL5in3M3PEszrcPrLWd9w&s" alt="Mountain image">
+       </div>
+   </section>
+</body>
+</html>
