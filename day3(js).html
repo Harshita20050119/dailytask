@@ -8,10 +8,13 @@
         table,tr,td{
             border: 2px solid black;
             border-collapse: collapse;
+            
         }
         #table{
             width: 60%;
+            height: 100px;
             text-align: center;
+           
         }
          
         #button{
@@ -23,50 +26,53 @@
 <body>
     <table id="table">
         <tr>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
         </tr>
         <tr>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
         </tr>
         <tr>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
-            <td>Person</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
     </table>
-    <button id="button" onclick="changecolour()"> Change colour</button>
+    <button id="button" > Change colour</button>
 
     <script>
              let element=document.getElementById("table");
-           
+             let element2=document.getElementById("button");
+            
               
-            element.addEventListener("click",() => {
-                element.style.backgroundColor = "yellow";
+                element2.addEventListener("click",() => {
+                element.style.backgroundColor = "red";
             })
+         
+        
         
     </script>
 </body>
