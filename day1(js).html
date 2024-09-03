@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter app</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            /* background-color: #10ddf9; */
+            overflow: hidden;
+        }
+        #wrapper{
+           display: flex;
+           justify-content: center;
+            gap: 2vw;
+            background-color: #ff6347;
+           
+            font-weight: bold;
+           border: 1px solid black;
+           border-radius: 30px;
+           margin: 25vw;
+           padding: 40px;
+           /* margin-left: 25vw;
+           margin-right: 25vw; */
+        }
+        button{
+            /* justify-content: center; */
+            text-align: center;
+            display: flex;
+            /* color: white; */
+            font-weight: bold;
+            border: 2px solid black;
+            border-radius: 0.5vw;
+            cursor: pointer ;
+            
+        }
+        /* #count {
+        color: #333333;
+         } */
+        
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+       
+    <button onclick="Increment()">Increment</button>
+
+    counter:<span id="count">0</span>
+
+    <button onclick="Decrement()">Decrement</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="max()">Max</button>
+</div>
+         
+          <script>
+            
+           
+            let countervalue=0;
+            let value=0;
+            function Increment(){
+                if(countervalue<50)
+                countervalue++;
+                count.textContent=countervalue;
+                
+           }
+            function Decrement(){
+                if(countervalue>0)
+                countervalue--;
+                count.textContent=countervalue;
+             }
+             function reset(){
+              countervalue=0;
+              count.textContent=0;
+            }
+            
+            function max()
+            {
+                countervalue=0;
+              count.textContent=50;
+
+            }
+
+            </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    
+}
+#container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+     height: 100vh;
+
+}
+.box{
+    border: 1px solid black;
+    height: 350px;
+    width: 300px;
+    background-color: brown;
+    background-image:url("Images/nature_image.jpg");
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    color: rgba(0,0,0,0.5);
+    border: 2px solid black;
+   transform: translateY(-15px);
+   gap: 20px;
+   display: none;
+   transition: 0.25 ease-in-out;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

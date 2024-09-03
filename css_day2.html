@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            /* border: 20px solid black;
+            box-sizing: border-box; */
+            /* background-color: skyblue; */
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width: 100vw; */
+            height: 350px;
+            gap: 30px;
+            flex-direction: row;
+            /* overflow: hidden; */
+        }
+        .box{
+            /* border: 2px solid black; */
+            height: 300px;
+            width:250px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            /* overflow: hidden; */
+            border-radius: 15px;
+            /* transform: translateY(-15px);
+            transition: ; */
+        }
+        .box1{
+            background-image: url("Images/nature_image.jpg");
+        }
+        .box2{
+            background-image: url("https://images.pexels.com/photos/378442/pexels-photo-378442.jpeg?cs=srgb&dl=dawn-nature-sky-378442.jpg&fm=jpg");
+        }
+        .box3{
+            background-image: url("https://tse4.mm.bing.net/th/id/OIP.esdHnlB-eysViOsi0G_x9QHaEo?rs=1&pid=ImgDetMain");
+        }
+        .box4{
+            background-image: url("https://tse1.mm.bing.net/th/id/OIP.z4ZLCETriQgaV2bxzrZP4AHaE5?rs=1&pid=ImgDetMain");
+        }
+        .box5{
+            background-image: url("https://tse1.mm.bing.net/th/id/OIP.4WamEe4wSmoEkmJSi8ja-wHaEK?rs=1&pid=ImgDetMain");
+        }
+        .box6{
+            background-image: url("https://tse4.mm.bing.net/th/id/OIP.9i-kp1V31HeVHc4n9YBqQQHaEo?rs=1&pid=ImgDetMain");
+        }
+        .overlay{
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+             transition: opacity 0.4s ease-in;
+            /* transform: translateY(-10px);  */
+        }
+        .box:hover .overlay{
+            opacity: 1;
+           
+        }
+        /* .box9:hover .overlay2{
+            opacity: 1;
+           
+        } */
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box1">
+            <div class="overlay">
+                <div class="text">
+                    <h1>Nature image</h1>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class="overlay">
+                <div class="text">
+                    <h1>Nature image</h1>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="overlay">
+                <div class="text">
+                    <h1>Nature image</h1>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+  <div class="container">
+    <div class="box box4">
+        <div class="overlay">
+            <div class="text">
+                <h1>Sunset View</h1>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="box box5">
+        <div class="overlay">
+            <div class="text">
+                <h1>Sunset View</h1>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="box box6">
+        <div class="overlay">
+            <div class="text">
+                <h1>Sunset View</h1>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

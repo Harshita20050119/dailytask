@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String methods</title>
+</head>
+<body>
+    <h1>Char at()  method</h1>
+    <p id="charat"></p>
+    <h1>index Of()  method</h1>
+    <p id="indexof"></p>
+    <h1>lat inex Of()</h1>
+    <p id="lastindexof"></p>
+    <h1>trim()</h1>
+    <p id="trim"></p>
+    <h1>Substring()</h1>
+    <p id="Substring"></p>
+    <h1>Split()</h1>
+    <p id="split"></p>
+
+    <script>
+        value="India is a country is";
+        text="My   name   is    Harshita";
+        text2="a,b,c"
+        document.getElementById("charat").innerHTML=value.charAt(1);
+        document.getElementById("indexof").innerHTML=value.indexOf("is");
+        document.getElementById("lastindexof").innerHTML=value.lastIndexOf("is");
+        document.getElementById("trim").innerHTML=text.trim();
+        document.getElementById("Substring").innerHTML=value.substring(0,5);
+        document.getElementById("split").innerHTML=text2.split(" ");
+
+    </script>
+</body>
+</html>
