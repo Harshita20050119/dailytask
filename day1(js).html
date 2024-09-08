@@ -56,10 +56,9 @@
 </div>
          
           <script>
-            
-           
             let countervalue=0;
             let value=0;
+            let maximum=50;
             function Increment(){
                 if(countervalue<50)
                 countervalue++;
@@ -73,13 +72,13 @@
              }
              function reset(){
               countervalue=0;
-              count.textContent=0;
+              count.textContent=countervalue;
             }
             
             function max()
             {
                 countervalue=0;
-              count.textContent=50;
+              count.textContent=maximum;
 
             }
 

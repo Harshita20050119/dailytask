@@ -10,21 +10,21 @@
             border-collapse: collapse;
             
         }
-        #table{
+        #table1{
             width: 60%;
             height: 100px;
             text-align: center;
            
         }
          
-        #button{
+        button{
             margin: 20px;
             cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <table id="table">
+    <table id="table1">
         <tr>
             <td></td>
             <td></td>
@@ -61,19 +61,28 @@
             <td></td>
         </tr>
     </table>
-    <button id="button" > Change colour</button>
+    <button id="button1" > Change colour</button>
+    <button id="reset1">Reset</button>
 
     <script>
-             let element=document.getElementById("table");
-             let element2=document.getElementById("button");
+             let table=document.getElementById("table1");
+             let button=document.getElementById("button1");
+             let reset=document.getElementById("reset1");
+             
             
               
-                element2.addEventListener("click",() => {
-                element.style.backgroundColor = "red";
+                button.addEventListener("click",() => {
+                table.style.backgroundColor = "red";
+            })
+
+            reset.addEventListener("click",() =>{
+                table.style.backgroundColor ="white";
             })
          
         
-        
+        // var str ="Harshita learning Javascript  ";
+        // var result=str.split("");
+        // console.log(result);
     </script>
 </body>
 </html>
